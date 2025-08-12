@@ -1,8 +1,6 @@
 {
-  "name": "root",
+  "name": "@esoc/test-next-auth",
   "version": "0.0.0",
-  "private": true,
-  "repository": "https://github.com/nextauthjs/next-auth.git",
   "scripts": {
     "build:app": "turbo run build --filter=next-auth-app",
     "build": "turbo run build --filter=next-auth --no-deps",
@@ -46,7 +44,7 @@
     ]
   },
   "engines": {
-    "node": "^12.19.0 || ^14.15.0 || ^16.13.0 || ^18.12.0"
+    "node": "^12.19.0 || ^14.15.0 || ^16.13.0 || ^18.12.0 || ^22.12.0"
   },
   "prettier": {
     "semi": false,
