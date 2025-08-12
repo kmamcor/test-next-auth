@@ -1,5 +1,5 @@
 {
-  "name": "@esoc/test-next-auth",
+  "name": "next-auth",
   "version": "0.0.0",
   "scripts": {
     "build:app": "turbo run build --filter=next-auth-app",
